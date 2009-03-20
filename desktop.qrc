@@ -1,0 +1,8 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>images/photo.png</file>
+    <file>images/music.png</file>
+    <file>images/video.png</file>
+    <file>images/setting.png</file>
+</qresource>
+</RCC>

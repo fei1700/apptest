@@ -1,0 +1,191 @@
+QWidget#desktop{
+	background-color:none;
+	background-image:url(desk.gif);
+	border-image:url(desk.gif);
+}
+
+QToolButton{
+        color:black;
+	width: 30px;
+	height: 30px;
+}
+
+QToolButton:checked {
+    position: relative;
+    top: 2px;
+    left: 2px;
+
+}
+
+QSlider::groove:horizontal {
+         border: 1px solid #999999;
+         height: 8px; /* the groove expands to the size of the slider by default. by giving it a height, it has a fixed size */
+         background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #B1B1B1, stop:1 #c4c4c4);
+         margin: 2px 0;
+}
+
+QSlider::handle:horizontal {
+         background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #b4b4b4, stop:1 #8f8f8f);
+         border: 1px solid #5c5c5c;
+         width: 18px;
+         margin: -2px 0; /* handle is placed by default on the contents rect of the groove. Expand outside the groove */
+         border-radius: 3px;
+ }
+
+
+QToolButton#photoAction{
+	border-image:url(images/photo.png);
+}
+
+QToolButton#musicAction{
+        border-image:url(images/music.png);
+}
+
+QToolButton#videoAction{
+        border-image:url(images/video.png);
+}
+
+QToolButton#settingAction{
+        border-image:url(images/setting.png);
+}
+
+QToolButton:pressed#photoAction{
+	border-image:url(images/select.png);
+}
+
+QToolButton:pressed#musicAction{
+        border-image:url(images/select.png);
+}
+
+QToolButton:pressed#videoAction{
+        border-image:url(images/select.png);
+}
+
+QToolButton:pressed#settingAction{
+        border-image:url(images/select.png);
+}
+
+QToolButton#photonext{
+	border-image:url(images/next.png);
+	width:20px;
+	height:20px;
+}
+
+QToolButton:pressed#photonext{
+        border-image:url(images/select.png);
+        width:20px;
+        height:20px;
+}
+QToolButton#photoprev{
+        border-image:url(images/prev.png);
+        width:20px;
+        height:20px;
+}
+
+QToolButton:pressed#photoprev{
+        border-image:url(images/select.png);
+        width:20px;
+        height:20px;
+}
+
+QToolButton#photofull{
+        border-image:url(images/setting.png);
+        width:20px;
+        height:20px;
+}
+
+QToolButton:pressed#photofull{
+        border-image:url(images/select.png);
+        width:20px;
+        height:20px;
+}
+
+QTreeView{	
+	alternate-background-color:yellow;
+}
+
+ QTreeView::branch:has-children:!has-siblings:closed,
+ QTreeView::branch:closed:has-children:has-siblings {
+         border-image: none;
+         image: url(images/branch-closed.png);
+ }
+
+ QTreeView::branch:open:has-children:!has-siblings,
+ QTreeView::branch:open:has-children:has-siblings  {
+         border-image: none;
+         image: url(images/branch-open.png);
+ }
+
+QToolButton#treebutton{
+	border-image:url(images/treebutton.png);
+	width:15px;
+	height:15px;
+}
+
+QToolButton:pressed#treebutton{
+	border-image:url(images/select.png);
+	width:15px;
+	height:15px;
+}
+
+QToolButton#showbutton{
+	border-image:url(images/show.png);
+	width:30px;
+	height:20px;
+}
+
+QToolButton:pressed#showbutton{
+	border-image:url(images/select.png);
+	width:30px;
+	height:20px;
+}
+
+QLabel#filepath{
+	background-color: yellow;
+}
+
+QLabel#fileinfo{
+	background-color:white;
+}
+
+QToolButton#play_pause{
+	border-image:url(images/play.png);
+	width:35px;
+	height:35px;
+}
+
+QToolButton#next{
+	border-image:url(images/next.png);
+	width:25px;
+	height:25px;
+}
+
+QToolButton:pressed#next{
+	border-image:url(images/select.png);
+	width:25px;
+	height:25px;
+}
+
+QToolButton:pressed#prev{
+        border-image:url(images/select.png);
+        width:25px;
+        height:25px;
+}
+
+QToolButton#prev{
+	border-image:url(images/prev.png);
+	width:25px;
+	height:25px;
+}
+
+QToolButton#rotate{
+	border-image:url(images/rotate.png);
+	width:25px;
+	height:25px;
+}
+
+QToolButton:pressed#rotate{
+        border-image:url(images/select.png);
+        width:25px;
+        height:25px;
+}

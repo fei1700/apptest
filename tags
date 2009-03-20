@@ -1,0 +1,295 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+<Plug>NetrwBrowseX	session.vim	/^nnoremap <silent> <Plug>NetrwBrowseX :call netrw#NetrwBrowseX(expand("<cWORD>"),0)$/;"	m
+AR	Makefile	/^AR            = arm-linux-ar cqs$/;"	m
+BILINEAR_STRETCH_HOR	pictureflow.cpp	588;"	d	file:
+BILINEAR_STRETCH_VER	pictureflow.cpp	589;"	d	file:
+BYTE_MUL_RGB16	pictureflow.cpp	/^static inline uint BYTE_MUL_RGB16(uint x, uint a) {$/;"	f	file:
+BYTE_MUL_RGB16_32	pictureflow.cpp	/^static inline uint BYTE_MUL_RGB16_32(uint x, uint a) {$/;"	f	file:
+CC	Makefile	/^CC            = arm-linux-gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS        = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+CHK_DIR_EXISTS	Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+COMPRESS	Makefile	/^COMPRESS      = gzip -9f$/;"	m
+COPY	Makefile	/^COPY          = cp -f$/;"	m
+COPY_DIR	Makefile	/^COPY_DIR      = $(COPY) -R$/;"	m
+COPY_FILE	Makefile	/^COPY_FILE     = $(COPY)$/;"	m
+CXX	Makefile	/^CXX           = arm-linux-g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS      = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+DEFINES	Makefile	/^DEFINES       = -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_SHARED$/;"	m
+DEL_DIR	Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_FILE	Makefile	/^DEL_FILE      = rm -f$/;"	m
+DESKTOP_H	desktop.h	3;"	d
+DESTDIR	Makefile	/^DESTDIR       = $/;"	m
+DIST	Makefile	/^DIST          = ..\/..\/armprefix\/mkspecs\/qconfig.pri \\$/;"	m
+Desktop	desktop.cpp	/^Desktop::Desktop()$/;"	f	class:Desktop
+Desktop	desktop.h	/^class Desktop : public QFrame$/;"	c
+IANGLE_MASK	pictureflow.cpp	132;"	d	file:
+IANGLE_MAX	pictureflow.cpp	131;"	d	file:
+INCPATH	Makefile	/^INCPATH       = -I..\/..\/armprefix\/mkspecs\/qws\/linux-arm-g++ -I. -I..\/..\/armprefix\/include\/QtCore -I..\/..\/armprefix\/include\/QtCore -I..\/..\/armprefix\/include\/QtNetwork -I..\/..\/armprefix\/include\/QtNetwork -I..\/..\/armprefix\/include\/QtGui -I..\/..\/armprefix\/include\/QtGui -I..\/..\/armprefix\/include -I. -I. -I.$/;"	m
+INSTALL_DIR	Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m
+INSTALL_FILE	Makefile	/^INSTALL_FILE  = $(COPY_FILE)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = $(COPY_FILE)$/;"	m
+ImageWidget	photoviewer.cpp	/^ImageWidget::ImageWidget(QWidget *parent)$/;"	f	class:ImageWidget
+ImageWidget	photoviewer.h	/^class ImageWidget : public QWidget$/;"	c
+LFLAGS	Makefile	/^LFLAGS        = -Wl,-rpath,\/opt\/prefix\/lib$/;"	m
+LIBS	Makefile	/^LIBS          = $(SUBLIBS)  -L\/opt\/armprefix\/lib -lQtGui -L\/opt\/samba\/qt4\/install\/lib -L\/home\/gstreamer\/glib-2.18.3\/install\/lib -L\/home\/gstreamer\/install\/lib\/ -L\/opt\/prefix\/lib -lts -lQtNetwork -lQtCore -lgio-2.0 -lglib-2.0 -lgmodule-2.0 -lgobject-2.0 -lgthread-2.0 -lgstreamer-0.10 -lgstbase-0.10 -lm -lrt -ldl -lpthread$/;"	m
+LINK	Makefile	/^LINK          = arm-linux-g++$/;"	m
+MKDIR	Makefile	/^MKDIR         = mkdir -p$/;"	m
+MOVE	Makefile	/^MOVE          = mv -f$/;"	m
+MUSICPLAYER_H	musicplayer.h	3;"	d
+MusicPlayer	musicplayer.cpp	/^MusicPlayer::MusicPlayer(QWidget *parent)$/;"	f	class:MusicPlayer
+MusicPlayer	musicplayer.h	/^class MusicPlayer : public QWidget$/;"	c
+OBJECTS	Makefile	/^OBJECTS       = desktop.o \\$/;"	m
+OBJECTS_DIR	Makefile	/^OBJECTS_DIR   = .\/$/;"	m
+PFREAL_FACTOR	pictureflow.cpp	103;"	d	file:
+PFREAL_HALF	pictureflow.cpp	105;"	d	file:
+PFREAL_ONE	pictureflow.cpp	104;"	d	file:
+PFREAL_SHIFT	pictureflow.cpp	102;"	d	file:
+PFreal	pictureflow.cpp	/^typedef long PFreal;$/;"	t	file:
+PHOTOVIEWER_H	photoviewer.h	3;"	d
+PICTUREFLOW_H	pictureflow.h	65;"	d
+PhotoViewer	photoviewer.cpp	/^PhotoViewer::PhotoViewer(QWidget *parent)$/;"	f	class:PhotoViewer
+PhotoViewer	photoviewer.h	/^class PhotoViewer : public QWidget$/;"	c
+PictureFlow	pictureflow.cpp	/^PictureFlow::PictureFlow(QWidget* parent): QWidget(parent)$/;"	f	class:PictureFlow
+PictureFlow	pictureflow.h	/^class PictureFlow : public QWidget$/;"	c
+PictureFlowPrivate	pictureflow.cpp	/^PictureFlowPrivate::PictureFlowPrivate(PictureFlow* w)$/;"	f	class:PictureFlowPrivate
+PictureFlowPrivate	pictureflow.cpp	/^class PictureFlowPrivate$/;"	c	file:
+QMAKE	Makefile	/^QMAKE         = \/opt\/samba\/qt4\/qtembeded_arm\/bin\/qmake$/;"	m
+QMAKE_TARGET	Makefile	/^QMAKE_TARGET  = p$/;"	m
+QRgb565	pictureflow.cpp	/^typedef unsigned short QRgb565;$/;"	t	file:
+RANLIB	Makefile	/^RANLIB        = arm-linux-ranlib$/;"	m
+RGB565_BLUE	pictureflow.cpp	100;"	d	file:
+RGB565_BLUE_MASK	pictureflow.cpp	96;"	d	file:
+RGB565_GREEN	pictureflow.cpp	99;"	d	file:
+RGB565_GREEN_MASK	pictureflow.cpp	95;"	d	file:
+RGB565_RED	pictureflow.cpp	98;"	d	file:
+RGB565_RED_MASK	pictureflow.cpp	94;"	d	file:
+SED	Makefile	/^SED           = sed$/;"	m
+SETTING_H	setting.h	3;"	d
+SOURCES	Makefile	/^SOURCES       = desktop.cpp \\$/;"	m
+SPEED_LOWER_THRESHOLD	pictureflow.cpp	1246;"	d	file:
+SPEED_UPPER_LIMIT	pictureflow.cpp	1247;"	d	file:
+SYMLINK	Makefile	/^SYMLINK       = ln -sf$/;"	m
+SessionLoad	session.vim	/^let SessionLoad = 1$/;"	v
+Setting	setting.cpp	/^Setting::Setting(QWidget *parent)$/;"	f	class:Setting
+Setting	setting.h	/^class Setting : public QWidget$/;"	c
+SlideInfo	pictureflow.cpp	/^struct SlideInfo$/;"	s	file:
+TAR	Makefile	/^TAR           = tar -cf$/;"	m
+TARGET	Makefile	/^TARGET        = p$/;"	m
+TreeshowWidget	photoviewer.cpp	/^TreeshowWidget::TreeshowWidget(QWidget *parent)$/;"	f	class:TreeshowWidget
+TreeshowWidget	photoviewer.h	/^class TreeshowWidget : public QWidget$/;"	c
+VIDEOPLAYER_H	videoplayer.h	3;"	d
+VideoPlayer	videoplayer.cpp	/^VideoPlayer::VideoPlayer(QWidget *parent)$/;"	f	class:VideoPlayer
+VideoPlayer	videoplayer.h	/^class VideoPlayer : public QWidget$/;"	c
+addMusicPicture	musicplayer.cpp	/^void MusicPlayer::addMusicPicture(void)$/;"	f	class:MusicPlayer
+angle	pictureflow.cpp	/^  int angle;$/;"	m	struct:SlideInfo	file:
+animateTimer	pictureflow.cpp	/^  QBasicTimer animateTimer;$/;"	m	class:PictureFlowPrivate	file:
+blankSurface	pictureflow.cpp	/^  QImage blankSurface;$/;"	m	class:PictureFlowPrivate	file:
+buffer	pictureflow.cpp	/^  QImage buffer;$/;"	m	class:PictureFlowPrivate	file:
+captions	pictureflow.cpp	/^  QVector<QString> captions;$/;"	m	class:PictureFlowPrivate	file:
+centerIndex	pictureflow.cpp	/^  int centerIndex;$/;"	m	class:PictureFlowPrivate	file:
+centerSlide	pictureflow.cpp	/^  SlideInfo centerSlide;$/;"	m	class:PictureFlowPrivate	file:
+clear	pictureflow.cpp	/^void PictureFlow::clear()$/;"	f	class:PictureFlow
+clearCaches	pictureflow.cpp	/^void PictureFlow::clearCaches()$/;"	f	class:PictureFlow
+clearSurfaceCache	pictureflow.cpp	/^void PictureFlowPrivate::clearSurfaceCache()$/;"	f	class:PictureFlowPrivate
+createAction	desktop.cpp	/^void Desktop::createAction()$/;"	f	class:Desktop
+createItem	desktop.cpp	/^void Desktop::createItem()$/;"	f	class:Desktop
+createLayout	desktop.cpp	/^void Desktop::createLayout()$/;"	f	class:Desktop
+currentSlide	pictureflow.cpp	/^int PictureFlow::currentSlide() const$/;"	f	class:PictureFlow
+currentSlide	pictureflow.cpp	/^int PictureFlowPrivate::currentSlide() const$/;"	f	class:PictureFlowPrivate
+cx	pictureflow.cpp	/^  PFreal cx;$/;"	m	struct:SlideInfo	file:
+cy	pictureflow.cpp	/^  PFreal cy;$/;"	m	struct:SlideInfo	file:
+d	pictureflow.h	/^  PictureFlowPrivate* d;$/;"	m	class:PictureFlow
+drawImage	photoviewer.cpp	/^void ImageWidget::drawImage(void)$/;"	f	class:ImageWidget
+fade	pictureflow.cpp	/^  int fade;$/;"	m	class:PictureFlowPrivate	file:
+fcos	pictureflow.cpp	/^inline PFreal fcos(int iangle)$/;"	f
+fdiv	pictureflow.cpp	/^inline PFreal fdiv(PFreal num, PFreal den)$/;"	f
+firstPress	pictureflow.cpp	/^  QPoint firstPress;$/;"	m	class:PictureFlowPrivate	file:
+fixedToFloat	pictureflow.cpp	/^inline float fixedToFloat(PFreal val)$/;"	f
+floatToFixed	pictureflow.cpp	/^inline PFreal floatToFixed(float val)$/;"	f
+fmul	pictureflow.cpp	/^inline PFreal fmul(PFreal a, PFreal b)$/;"	f
+fsin	pictureflow.cpp	/^inline PFreal fsin(int iangle)$/;"	f
+g_mainlayout	desktop.cpp	/^QVBoxLayout * g_mainlayout;$/;"	v
+g_musicplay	desktop.cpp	/^MusicPlayer *g_musicplay;$/;"	v
+g_photoview	desktop.cpp	/^PhotoViewer *g_photoview;$/;"	v
+g_setting	desktop.cpp	/^Setting *g_setting;$/;"	v
+g_videoplay	desktop.cpp	/^VideoPlayer *g_videoplay;$/;"	v
+getTarget	pictureflow.cpp	/^int PictureFlowPrivate::getTarget() const$/;"	f	class:PictureFlowPrivate
+gotoMusic	desktop.cpp	/^void Desktop::gotoMusic()$/;"	f	class:Desktop
+gotoPhoto	desktop.cpp	/^void Desktop::gotoPhoto()$/;"	f	class:Desktop
+gotoSetting	desktop.cpp	/^void Desktop::gotoSetting()$/;"	f	class:Desktop
+gotoVideo	desktop.cpp	/^void Desktop::gotoVideo()$/;"	f	class:Desktop
+gx	session.vim	/^nmap gx <Plug>NetrwBrowseX$/;"	m
+hello	helloworld.cpp	/^int MusicPlayer::hello(void)$/;"	f	class:MusicPlayer
+inputReceived	moc_pictureflow.cpp	/^void PictureFlow::inputReceived()$/;"	f	class:PictureFlow
+itemActivated	moc_pictureflow.cpp	/^void PictureFlow::itemActivated(int _t1)$/;"	f	class:PictureFlow
+itilt	pictureflow.cpp	/^  int itilt;$/;"	m	class:PictureFlowPrivate	file:
+keyPressEvent	pictureflow.cpp	/^void PictureFlow::keyPressEvent(QKeyEvent* event)$/;"	f	class:PictureFlow
+language	setting.h	/^	int language;$/;"	m	class:Setting
+leftSlides	pictureflow.cpp	/^  QVector<SlideInfo> leftSlides;$/;"	m	class:PictureFlowPrivate	file:
+m_buttonLay	musicplayer.h	/^	QVBoxLayout *m_buttonLay;$/;"	m	class:MusicPlayer
+m_dirview	musicplayer.h	/^	QPushButton *m_dirview;$/;"	m	class:MusicPlayer
+m_fileinfo	photoviewer.h	/^        QLabel *m_fileinfo;$/;"	m	class:PhotoViewer
+m_filename	photoviewer.h	/^        QLabel *m_filename;$/;"	m	class:PhotoViewer
+m_filepath	photoviewer.h	/^        QLabel *m_filepath;$/;"	m	class:PhotoViewer
+m_lastWidget	desktop.h	/^	QWidget *m_lastWidget;$/;"	m	class:Desktop
+m_mainLayout	desktop.h	/^	QVBoxLayout *m_mainLayout;$/;"	m	class:Desktop
+m_model	photoviewer.h	/^        QDirModel *m_model;$/;"	m	class:TreeshowWidget
+m_musicAction	desktop.h	/^	QToolButton *m_musicAction;$/;"	m	class:Desktop
+m_musicpicture	musicplayer.h	/^	PictureFlow *m_musicpicture;$/;"	m	class:MusicPlayer
+m_next	musicplayer.h	/^	QPushButton *m_next;$/;"	m	class:MusicPlayer
+m_painter	photoviewer.h	/^        QPainter *m_painter;$/;"	m	class:PhotoViewer
+m_photoAction	desktop.h	/^	QToolButton *m_photoAction;$/;"	m	class:Desktop
+m_photodir	photoviewer.h	/^	char *m_photodir;$/;"	m	class:TreeshowWidget
+m_pictureFlowWidget	photoviewer.h	/^    	PictureFlow* m_pictureFlowWidget;$/;"	m	class:PhotoViewer
+m_play_pause	musicplayer.h	/^	QPushButton *m_play_pause;$/;"	m	class:MusicPlayer
+m_playerLay	musicplayer.h	/^	QHBoxLayout *m_playerLay;$/;"	m	class:MusicPlayer
+m_prev	musicplayer.h	/^	QPushButton *m_prev;$/;"	m	class:MusicPlayer
+m_settingAction	desktop.h	/^	QToolButton *m_settingAction;$/;"	m	class:Desktop
+m_showbutton	photoviewer.h	/^	QToolButton *m_showbutton;$/;"	m	class:TreeshowWidget
+m_time_slider	musicplayer.h	/^	QSlider *m_time_slider;$/;"	m	class:MusicPlayer
+m_topLayout	desktop.h	/^	QHBoxLayout *m_topLayout;$/;"	m	class:Desktop
+m_treebutton	photoviewer.h	/^	QToolButton *m_treebutton;$/;"	m	class:PhotoViewer
+m_treeshowWidget	photoviewer.h	/^	TreeshowWidget* m_treeshowWidget;$/;"	m	class:PhotoViewer
+m_treeview	photoviewer.h	/^	QTreeView *m_treeview;$/;"	m	class:TreeshowWidget
+m_videoAction	desktop.h	/^	QToolButton *m_videoAction;$/;"	m	class:Desktop
+m_volume_slider	musicplayer.h	/^	QSlider *m_volume_slider;$/;"	m	class:MusicPlayer
+main	hello.c	/^int main(void)$/;"	f
+main	main.cpp	/^int main(int argc, char* argv[])$/;"	f
+metaObject	moc_desktop.cpp	/^const QMetaObject *Desktop::metaObject() const$/;"	f	class:Desktop
+metaObject	moc_musicplayer.cpp	/^const QMetaObject *MusicPlayer::metaObject() const$/;"	f	class:MusicPlayer
+metaObject	moc_photoviewer.cpp	/^const QMetaObject *ImageWidget::metaObject() const$/;"	f	class:ImageWidget
+metaObject	moc_photoviewer.cpp	/^const QMetaObject *PhotoViewer::metaObject() const$/;"	f	class:PhotoViewer
+metaObject	moc_photoviewer.cpp	/^const QMetaObject *TreeshowWidget::metaObject() const$/;"	f	class:TreeshowWidget
+metaObject	moc_pictureflow.cpp	/^const QMetaObject *PictureFlow::metaObject() const$/;"	f	class:PictureFlow
+metaObject	moc_setting.cpp	/^const QMetaObject *Setting::metaObject() const$/;"	f	class:Setting
+metaObject	moc_videoplayer.cpp	/^const QMetaObject *VideoPlayer::metaObject() const$/;"	f	class:VideoPlayer
+mouseMoveEvent	pictureflow.cpp	/^void PictureFlow::mouseMoveEvent(QMouseEvent* event)$/;"	f	class:PictureFlow
+mousePressEvent	pictureflow.cpp	/^void PictureFlow::mousePressEvent(QMouseEvent* event)$/;"	f	class:PictureFlow
+mouseReleaseEvent	pictureflow.cpp	/^void PictureFlow::mouseReleaseEvent(QMouseEvent* event)$/;"	f	class:PictureFlow
+next	videoplayer.h	/^        QPushButton *next;$/;"	m	class:VideoPlayer
+offsetX	pictureflow.cpp	/^  PFreal offsetX;$/;"	m	class:PictureFlowPrivate	file:
+offsetY	pictureflow.cpp	/^  PFreal offsetY;$/;"	m	class:PictureFlowPrivate	file:
+paintEvent	photoviewer.cpp	/^void ImageWidget::paintEvent(QPaintEvent *event)$/;"	f	class:ImageWidget
+paintEvent	pictureflow.cpp	/^void PictureFlow::paintEvent(QPaintEvent* event)$/;"	f	class:PictureFlow
+pixelDistanceMoved	pictureflow.cpp	/^  int    pixelDistanceMoved;$/;"	m	class:PictureFlowPrivate	file:
+pixelsToMovePerSlide	pictureflow.cpp	/^  int    pixelsToMovePerSlide;$/;"	m	class:PictureFlowPrivate	file:
+play	videoplayer.h	/^        QPushButton *play;$/;"	m	class:VideoPlayer
+populatePictureFlow	photoviewer.cpp	/^void PhotoViewer::populatePictureFlow()$/;"	f	class:PhotoViewer
+prepareSurface	pictureflow.cpp	/^static QImage prepareSurface(QImage img, int w, int h)$/;"	f	file:
+prev	videoplayer.h	/^        QPushButton *prev;$/;"	m	class:VideoPlayer
+previousPos	pictureflow.cpp	/^  QPoint previousPos;$/;"	m	class:PictureFlowPrivate	file:
+previousPosTimestamp	pictureflow.cpp	/^  QTime  previousPosTimestamp;$/;"	m	class:PictureFlowPrivate	file:
+qCleanupResources_desktop	qrc_desktop.cpp	/^int QT_MANGLE_NAMESPACE(qCleanupResources_desktop)()$/;"	f
+qInitResources_desktop	qrc_desktop.cpp	/^int QT_MANGLE_NAMESPACE(qInitResources_desktop)()$/;"	f
+qt_meta_data_Desktop	moc_desktop.cpp	/^static const uint qt_meta_data_Desktop[] = {$/;"	v	file:
+qt_meta_data_ImageWidget	moc_photoviewer.cpp	/^static const uint qt_meta_data_ImageWidget[] = {$/;"	v	file:
+qt_meta_data_MusicPlayer	moc_musicplayer.cpp	/^static const uint qt_meta_data_MusicPlayer[] = {$/;"	v	file:
+qt_meta_data_PhotoViewer	moc_photoviewer.cpp	/^static const uint qt_meta_data_PhotoViewer[] = {$/;"	v	file:
+qt_meta_data_PictureFlow	moc_pictureflow.cpp	/^static const uint qt_meta_data_PictureFlow[] = {$/;"	v	file:
+qt_meta_data_Setting	moc_setting.cpp	/^static const uint qt_meta_data_Setting[] = {$/;"	v	file:
+qt_meta_data_TreeshowWidget	moc_photoviewer.cpp	/^static const uint qt_meta_data_TreeshowWidget[] = {$/;"	v	file:
+qt_meta_data_VideoPlayer	moc_videoplayer.cpp	/^static const uint qt_meta_data_VideoPlayer[] = {$/;"	v	file:
+qt_meta_stringdata_Desktop	moc_desktop.cpp	/^static const char qt_meta_stringdata_Desktop[] = {$/;"	v	file:
+qt_meta_stringdata_ImageWidget	moc_photoviewer.cpp	/^static const char qt_meta_stringdata_ImageWidget[] = {$/;"	v	file:
+qt_meta_stringdata_MusicPlayer	moc_musicplayer.cpp	/^static const char qt_meta_stringdata_MusicPlayer[] = {$/;"	v	file:
+qt_meta_stringdata_PhotoViewer	moc_photoviewer.cpp	/^static const char qt_meta_stringdata_PhotoViewer[] = {$/;"	v	file:
+qt_meta_stringdata_PictureFlow	moc_pictureflow.cpp	/^static const char qt_meta_stringdata_PictureFlow[] = {$/;"	v	file:
+qt_meta_stringdata_Setting	moc_setting.cpp	/^static const char qt_meta_stringdata_Setting[] = {$/;"	v	file:
+qt_meta_stringdata_TreeshowWidget	moc_photoviewer.cpp	/^static const char qt_meta_stringdata_TreeshowWidget[] = {$/;"	v	file:
+qt_meta_stringdata_VideoPlayer	moc_videoplayer.cpp	/^static const char qt_meta_stringdata_VideoPlayer[] = {$/;"	v	file:
+qt_metacall	moc_desktop.cpp	/^int Desktop::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:Desktop
+qt_metacall	moc_musicplayer.cpp	/^int MusicPlayer::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:MusicPlayer
+qt_metacall	moc_photoviewer.cpp	/^int ImageWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:ImageWidget
+qt_metacall	moc_photoviewer.cpp	/^int PhotoViewer::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:PhotoViewer
+qt_metacall	moc_photoviewer.cpp	/^int TreeshowWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:TreeshowWidget
+qt_metacall	moc_pictureflow.cpp	/^int PictureFlow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:PictureFlow
+qt_metacall	moc_setting.cpp	/^int Setting::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:Setting
+qt_metacall	moc_videoplayer.cpp	/^int VideoPlayer::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:VideoPlayer
+qt_metacast	moc_desktop.cpp	/^void *Desktop::qt_metacast(const char *_clname)$/;"	f	class:Desktop
+qt_metacast	moc_musicplayer.cpp	/^void *MusicPlayer::qt_metacast(const char *_clname)$/;"	f	class:MusicPlayer
+qt_metacast	moc_photoviewer.cpp	/^void *ImageWidget::qt_metacast(const char *_clname)$/;"	f	class:ImageWidget
+qt_metacast	moc_photoviewer.cpp	/^void *PhotoViewer::qt_metacast(const char *_clname)$/;"	f	class:PhotoViewer
+qt_metacast	moc_photoviewer.cpp	/^void *TreeshowWidget::qt_metacast(const char *_clname)$/;"	f	class:TreeshowWidget
+qt_metacast	moc_pictureflow.cpp	/^void *PictureFlow::qt_metacast(const char *_clname)$/;"	f	class:PictureFlow
+qt_metacast	moc_setting.cpp	/^void *Setting::qt_metacast(const char *_clname)$/;"	f	class:Setting
+qt_metacast	moc_videoplayer.cpp	/^void *VideoPlayer::qt_metacast(const char *_clname)$/;"	f	class:VideoPlayer
+qt_resource_data	qrc_desktop.cpp	/^static const unsigned char qt_resource_data[] = {$/;"	v	file:
+qt_resource_name	qrc_desktop.cpp	/^static const unsigned char qt_resource_name[] = {$/;"	v	file:
+qt_resource_struct	qrc_desktop.cpp	/^static const unsigned char qt_resource_struct[] = {$/;"	v	file:
+rays	pictureflow.cpp	/^  QVector<PFreal> rays;$/;"	m	class:PictureFlowPrivate	file:
+recalc	pictureflow.cpp	/^void PictureFlowPrivate::recalc(int ww, int wh)$/;"	f	class:PictureFlowPrivate
+render	pictureflow.cpp	/^void PictureFlow::render()$/;"	f	class:PictureFlow
+render	pictureflow.cpp	/^void PictureFlowPrivate::render()$/;"	f	class:PictureFlowPrivate
+renderSlide	pictureflow.cpp	/^QRect PictureFlowPrivate::renderSlide(const SlideInfo &slide, int alpha, $/;"	f	class:PictureFlowPrivate
+resetSlides	pictureflow.cpp	/^void PictureFlowPrivate::resetSlides()$/;"	f	class:PictureFlowPrivate
+resize	pictureflow.cpp	/^void PictureFlowPrivate::resize(int w, int h)$/;"	f	class:PictureFlowPrivate
+resizeEvent	pictureflow.cpp	/^void PictureFlow::resizeEvent(QResizeEvent* event)$/;"	f	class:PictureFlow
+rightSlides	pictureflow.cpp	/^  QVector<SlideInfo> rightSlides;$/;"	m	class:PictureFlowPrivate	file:
+s:cpo_save	session.vim	/^let s:cpo_save=&cpo$/;"	v
+s:so_save	session.vim	/^let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0$/;"	v
+s:sx	session.vim	/^let s:sx = expand("<sfile>:p:r")."x.vim"$/;"	v
+s:wipebuf	session.vim	/^  let s:wipebuf = bufnr('%')$/;"	v
+setCurrentSlide	pictureflow.cpp	/^void PictureFlow::setCurrentSlide(int index)$/;"	f	class:PictureFlow
+setCurrentSlide	pictureflow.cpp	/^void PictureFlowPrivate::setCurrentSlide(int index)$/;"	f	class:PictureFlowPrivate
+setSlide	pictureflow.cpp	/^void PictureFlow::setSlide(int index, const QImage& image)$/;"	f	class:PictureFlow
+setSlide	pictureflow.cpp	/^void PictureFlow::setSlide(int index, const QPixmap& pixmap)$/;"	f	class:PictureFlow
+setSlide	pictureflow.cpp	/^void PictureFlowPrivate::setSlide(int index, const QImage& image)$/;"	f	class:PictureFlowPrivate
+setSlideCaption	pictureflow.cpp	/^void PictureFlow::setSlideCaption(int index, QString caption)$/;"	f	class:PictureFlow
+setSlideCount	pictureflow.cpp	/^void PictureFlow::setSlideCount(int count)$/;"	f	class:PictureFlow
+setSlideCount	pictureflow.cpp	/^void PictureFlowPrivate::setSlideCount(int count)$/;"	f	class:PictureFlowPrivate
+setSlideSize	pictureflow.cpp	/^void PictureFlow::setSlideSize(QSize size)$/;"	f	class:PictureFlow
+setSlideSize	pictureflow.cpp	/^void PictureFlowPrivate::setSlideSize(QSize size)$/;"	f	class:PictureFlowPrivate
+setZoomFactor	pictureflow.cpp	/^void PictureFlow::setZoomFactor(int z)$/;"	f	class:PictureFlow
+setZoomFactor	pictureflow.cpp	/^void PictureFlowPrivate::setZoomFactor(int z)$/;"	f	class:PictureFlowPrivate
+showFileInfo	photoviewer.cpp	/^void PhotoViewer::showFileInfo(void)$/;"	f	class:PhotoViewer
+showFlow	photoviewer.cpp	/^void PhotoViewer::showFlow(void)$/;"	f	class:PhotoViewer
+showImage	photoviewer.cpp	/^void PhotoViewer::showImage(void)$/;"	f	class:PhotoViewer
+showList	photoviewer.cpp	/^void PhotoViewer::showList(void)$/;"	f	class:PhotoViewer
+showNext	pictureflow.cpp	/^void PictureFlow::showNext()$/;"	f	class:PictureFlow
+showNext	pictureflow.cpp	/^void PictureFlowPrivate::showNext()$/;"	f	class:PictureFlowPrivate
+showPrevious	pictureflow.cpp	/^void PictureFlow::showPrevious()$/;"	f	class:PictureFlow
+showPrevious	pictureflow.cpp	/^void PictureFlowPrivate::showPrevious()$/;"	f	class:PictureFlowPrivate
+showSlide	pictureflow.cpp	/^void PictureFlow::showSlide(int index)$/;"	f	class:PictureFlow
+showSlide	pictureflow.cpp	/^void PictureFlowPrivate::showSlide(int index)$/;"	f	class:PictureFlowPrivate
+sinTable	pictureflow.cpp	/^static const PFreal sinTable[IANGLE_MAX] = {$/;"	v	file:
+singlePress	pictureflow.cpp	/^  bool   singlePress;$/;"	m	class:PictureFlowPrivate	file:
+singlePressThreshold	pictureflow.cpp	/^  int    singlePressThreshold;$/;"	m	class:PictureFlowPrivate	file:
+slide	pictureflow.cpp	/^QImage PictureFlow::slide(int index) const$/;"	f	class:PictureFlow
+slide	pictureflow.cpp	/^QImage PictureFlowPrivate::slide(int index) const$/;"	f	class:PictureFlowPrivate
+slideCount	pictureflow.cpp	/^int PictureFlow::slideCount() const$/;"	f	class:PictureFlow
+slideCount	pictureflow.cpp	/^int PictureFlowPrivate::slideCount() const$/;"	f	class:PictureFlowPrivate
+slideFrame	pictureflow.cpp	/^  int slideFrame;$/;"	m	class:PictureFlowPrivate	file:
+slideHeight	pictureflow.cpp	/^  int slideHeight;$/;"	m	class:PictureFlowPrivate	file:
+slideImages	pictureflow.cpp	/^  QVector<QImage> slideImages;$/;"	m	class:PictureFlowPrivate	file:
+slideIndex	pictureflow.cpp	/^  int slideIndex;$/;"	m	struct:SlideInfo	file:
+slideSize	pictureflow.cpp	/^QSize PictureFlow::slideSize() const$/;"	f	class:PictureFlow
+slideSize	pictureflow.cpp	/^QSize PictureFlowPrivate::slideSize() const$/;"	f	class:PictureFlowPrivate
+slideWidth	pictureflow.cpp	/^  int slideWidth;$/;"	m	class:PictureFlowPrivate	file:
+spacing	pictureflow.cpp	/^  int spacing;$/;"	m	class:PictureFlowPrivate	file:
+startAnimation	pictureflow.cpp	/^void PictureFlowPrivate::startAnimation()$/;"	f	class:PictureFlowPrivate
+staticMetaObject	moc_desktop.cpp	/^const QMetaObject Desktop::staticMetaObject = {$/;"	m	class:Desktop	file:
+staticMetaObject	moc_musicplayer.cpp	/^const QMetaObject MusicPlayer::staticMetaObject = {$/;"	m	class:MusicPlayer	file:
+staticMetaObject	moc_photoviewer.cpp	/^const QMetaObject ImageWidget::staticMetaObject = {$/;"	m	class:ImageWidget	file:
+staticMetaObject	moc_photoviewer.cpp	/^const QMetaObject PhotoViewer::staticMetaObject = {$/;"	m	class:PhotoViewer	file:
+staticMetaObject	moc_photoviewer.cpp	/^const QMetaObject TreeshowWidget::staticMetaObject = {$/;"	m	class:TreeshowWidget	file:
+staticMetaObject	moc_pictureflow.cpp	/^const QMetaObject PictureFlow::staticMetaObject = {$/;"	m	class:PictureFlow	file:
+staticMetaObject	moc_setting.cpp	/^const QMetaObject Setting::staticMetaObject = {$/;"	m	class:Setting	file:
+staticMetaObject	moc_videoplayer.cpp	/^const QMetaObject VideoPlayer::staticMetaObject = {$/;"	m	class:VideoPlayer	file:
+step	pictureflow.cpp	/^  int step;$/;"	m	class:PictureFlowPrivate	file:
+surface	pictureflow.cpp	/^QImage* PictureFlowPrivate::surface(int slideIndex)$/;"	f	class:PictureFlowPrivate
+surfaceCache	pictureflow.cpp	/^  QCache<int, QImage> surfaceCache;$/;"	m	class:PictureFlowPrivate	file:
+target	pictureflow.cpp	/^  int target;$/;"	m	class:PictureFlowPrivate	file:
+timerEvent	pictureflow.cpp	/^void PictureFlow::timerEvent(QTimerEvent* event)$/;"	f	class:PictureFlow
+triggerRender	pictureflow.cpp	/^void PictureFlowPrivate::triggerRender()$/;"	f	class:PictureFlowPrivate
+triggerTimer	pictureflow.cpp	/^  QTimer triggerTimer;$/;"	m	class:PictureFlowPrivate	file:
+updateAnimation	pictureflow.cpp	/^void PictureFlowPrivate::updateAnimation()$/;"	f	class:PictureFlowPrivate
+widget	pictureflow.cpp	/^  PictureFlow* widget;$/;"	m	class:PictureFlowPrivate	file:
+zoom	pictureflow.cpp	/^  int zoom;$/;"	m	class:PictureFlowPrivate	file:
+zoomFactor	pictureflow.cpp	/^int PictureFlow::zoomFactor() const$/;"	f	class:PictureFlow
+zoomFactor	pictureflow.cpp	/^int PictureFlowPrivate::zoomFactor() const$/;"	f	class:PictureFlowPrivate
+~PictureFlow	pictureflow.cpp	/^PictureFlow::~PictureFlow()$/;"	f	class:PictureFlow
